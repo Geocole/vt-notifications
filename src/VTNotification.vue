@@ -45,7 +45,7 @@ export default {
         },
       },
       [
-        this.$scopedSlots.default({
+        this.$slots.default({
           notifications: this.sortedNotifications,
           close: this.close,
         }),
