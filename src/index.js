@@ -5,7 +5,7 @@ import { methods } from './notifications.js'
 let installed = false
 
 export default {
-  install(app, options) {
+  install(app) {
     if (installed) return
     app.component('notification', VTNotification)
     app.component('notificationGroup', VTNotificationGroup)
